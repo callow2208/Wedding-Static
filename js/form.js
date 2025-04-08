@@ -303,4 +303,17 @@ document.addEventListener('DOMContentLoaded', function() {
   setupFormSubmission('enquiryForm');
   setupFormSubmission('contactForm');
   setupFormSubmission('venueEnquiryForm');
+
+  // Add any other forms that need phone verification here
+  const allForms = document.querySelectorAll('form');
+  allForms.forEach(form => {
+    if (form.id && !['enquiryForm', 'contactForm', 'venueEnquiryForm'].includes(form.id)) {
+      // Check if the form has a phone input
+      const hasPhoneInput = form.querySelector('input[type="tel"]');
+      if (hasPhoneInput) {
+        setupFormSubmission(form.id);
+      }
+    }
+  });
+  
 });

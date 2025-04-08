@@ -1,5 +1,5 @@
 
-// Main JavaScript file for WeddingBliss
+// Main JavaScript file for WeddingSreni
 
 document.addEventListener('DOMContentLoaded', function() {
   // Set current year in footer

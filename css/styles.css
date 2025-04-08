@@ -1,7 +1,7 @@
 
 /* 
 =================================
-  Custom Styles - WeddingBliss
+  Custom Styles - WeddingSreni
 =================================
 */
 
@@ -393,7 +393,7 @@ a {
 * Page Header
 */
 .page-header {
-  background: linear-gradient(rgba(139, 13, 50, 0.8), rgba(139, 13, 50, 0.9)), url('https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');
+  background: linear-gradient(rgba(139, 13, 50, 0.8), rgba(139, 13, 50, 0.9)), url('images/ground1/9.jpg');
   background-size: cover;
   background-position: center;
   padding: 8rem 0 3rem;
@@ -412,7 +412,7 @@ a {
 * CTA Section
 */
 .cta-section {
-  background: linear-gradient(rgba(139, 13, 50, 0.85), rgba(139, 13, 50, 0.95)), url('https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');
+  background: linear-gradient(rgba(139, 13, 50, 0.85), rgba(139, 13, 50, 0.95)), url('images/ground1/10.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -560,4 +560,8 @@ a {
     width: 50px;
     height: 50px;
   }
+}
+
+a {
+  color: rgb(212 175 55);
 }

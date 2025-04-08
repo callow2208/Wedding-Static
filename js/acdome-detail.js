@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   // Update page content with venue data
-  document.title = `${venue.name} - WeddingBliss Mumbai`;
+  document.title = `${venue.name} - WeddingSreni Mumbai`;
   
   // Update header
   document.getElementById('venueName').textContent = venue.name;
