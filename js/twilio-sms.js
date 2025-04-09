@@ -30,7 +30,7 @@ function generateOTP() {
 function sendOTP(phoneNumber) {
   return new Promise((resolve, reject) => {
     if (!phoneNumber || !/^\d{10}$/.test(phoneNumber)) {
-      reject('Invalid phone number. Please enter a valid 10-digit number.');
+      reject('Invalid phone number. Please enter a valid 13-digiit number.');
       return;
     }
     
