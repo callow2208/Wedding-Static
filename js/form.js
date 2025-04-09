@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
       }
       
-      if (!/^\d{10}$/.test(phoneNumber)) {
+      if (!/^\d{13}$/.test(phoneNumber)) {
         showAlert('danger', 'Please enter a valid 13-digit phone number');
         return;
       }
